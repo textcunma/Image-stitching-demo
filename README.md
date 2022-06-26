@@ -17,6 +17,10 @@
 ```
 conda env create --file env.yaml
 ```
+- python:3.8.13
+- opencv:4.5.5
+- numpy:1.23.0
+
 
 ## 実装
 [複数の画像からパノラマを作成 (OpenCV、Python)](https://www.qoosky.io/techs/dea950ec9a)を大いに参考
@@ -24,11 +28,6 @@ conda env create --file env.yaml
 main(): SIFT特徴を用いたパノラマ生成(stitchingモジュールを使用しない場合)
 main2(): stitchingモジュールを使用した場合
 ```
-
-## 仮想環境
-- python:3.8.13
-- opencv:4.5.5
-- numpy:1.23.0
 
 ## 参考サイト
 - [複数の画像からパノラマを作成 (OpenCV、Python)](https://www.qoosky.io/techs/dea950ec9a)
