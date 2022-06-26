@@ -5,6 +5,14 @@
 部分的に一致した複数枚の画像を合成して１枚の合成画像を生成<br>
 パノラマ画像の生成によってロボティクス界隈でも利用される
 
+<img src="./assets/desc.jpg" style="height:300px"></img>
+
+図1：パノラマ画像生成
+
+<img src="./assets/desc2.jpg" style="height:200px"></img>
+
+図2：画像間のマッチング
+
 ## 仮想環境
 ```
 conda env create --file env.yaml
